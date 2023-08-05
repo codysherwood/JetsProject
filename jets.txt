@@ -1,0 +1,5 @@
+CargoPlane,Boeing 747-8,614,9320,418000000
+CargoPlane,Boeing 767,567,3566,185000000
+FighterJet,Lockheed Martin F-16,1345,1260,20000000
+FighterJet,Lockheed Martin F-22,1500,1864,210000000
+PartyJet,Party Rocket,678,1800,8000000
