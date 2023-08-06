@@ -13,32 +13,28 @@ public class JetsApp {
 	}
 
 	public void run() {
-		startMenu();
-		userSelection();
+		userMenuSelection();
 	}
 
-	public void startMenu() {
-		System.out.println();
-		System.out.println("What would you like to do?");
-		System.out.println();
-		System.out.println("================ Menu ================");
-		System.out.println("|                                    |");
-		System.out.println("|1. List fleet                       |");
-		System.out.println("|2. Fly all jets                     |");
-		System.out.println("|3. View fastest jet                 |");
-		System.out.println("|4. View jet with the longest range  |");
-		System.out.println("|5. Load all Cargo jets              |");
-		System.out.println("|6. Dogfight                         |");
-		System.out.println("|7. Add a jet to Fleet               |");
-		System.out.println("|8. Remove a jet from Fleet          |");
-		System.out.println("|9. Quit                             |");
-		System.out.println("|                                    |");
-		System.out.println("======================================");
-	}
-
-	public void userSelection() {
+	public void userMenuSelection() {
 		boolean keepRunning = true;
 		while (keepRunning) {
+			System.out.println();
+			System.out.println("What would you like to do?");
+			System.out.println();
+			System.out.println("================ Menu ================");
+			System.out.println("|                                    |");
+			System.out.println("|1. List fleet                       |");
+			System.out.println("|2. Fly all jets                     |");
+			System.out.println("|3. View fastest jet                 |");
+			System.out.println("|4. View jet with the longest range  |");
+			System.out.println("|5. Load all Cargo jets              |");
+			System.out.println("|6. Dogfight                         |");
+			System.out.println("|7. Add a jet to Fleet               |");
+			System.out.println("|8. Remove a jet from Fleet          |");
+			System.out.println("|9. Quit                             |");
+			System.out.println("|                                    |");
+			System.out.println("======================================");
 			int numChoice = kb.nextInt();
 
 			switch (numChoice) {

@@ -102,6 +102,7 @@ public class AirField {
 	public void AddJetToFleet(Scanner kb) {
 		System.out.println("Please enter the Jets model");
 		String model = kb.next();
+		kb.nextLine();
 		System.out.println("Please enter the Jets speed");
 		double speed = kb.nextDouble();
 		kb.nextLine();
