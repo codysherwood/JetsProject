@@ -78,7 +78,7 @@ public class AirField {
 				longestRangedJet = jet;
 			}
 		}
-		System.out.println("Longest Ranged Jet: " + longestRangedJet);
+		System.out.println("Jet with the longest range: " + longestRangedJet);
 	}
 
 	public void LoadAllCargoJets() {

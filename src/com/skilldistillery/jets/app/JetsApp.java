@@ -13,10 +13,6 @@ public class JetsApp {
 	}
 
 	public void run() {
-		userMenuSelection();
-	}
-
-	public void userMenuSelection() {
 		boolean keepRunning = true;
 		while (keepRunning) {
 			System.out.println();
